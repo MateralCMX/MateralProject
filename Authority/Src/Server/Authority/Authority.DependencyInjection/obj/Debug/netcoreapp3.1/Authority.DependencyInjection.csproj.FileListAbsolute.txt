@@ -1,9 +1,0 @@
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DependencyInjection\bin\Debug\netcoreapp3.1\Authority.DependencyInjection.deps.json
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DependencyInjection\bin\Debug\netcoreapp3.1\Authority.DependencyInjection.dll
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DependencyInjection\bin\Debug\netcoreapp3.1\Authority.DependencyInjection.pdb
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DependencyInjection\obj\Debug\netcoreapp3.1\Authority.DependencyInjection.csprojAssemblyReference.cache
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DependencyInjection\obj\Debug\netcoreapp3.1\Authority.DependencyInjection.csproj.CoreCompileInputs.cache
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DependencyInjection\obj\Debug\netcoreapp3.1\Authority.DependencyInjection.AssemblyInfoInputs.cache
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DependencyInjection\obj\Debug\netcoreapp3.1\Authority.DependencyInjection.AssemblyInfo.cs
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DependencyInjection\obj\Debug\netcoreapp3.1\Authority.DependencyInjection.dll
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DependencyInjection\obj\Debug\netcoreapp3.1\Authority.DependencyInjection.pdb

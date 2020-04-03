@@ -1,8 +1,0 @@
-E:\Project\MateralProject\Authority\Src\Server\Authority\MateralProject.EFHelper\bin\Debug\netcoreapp3.1\MateralProject.EFHelper.deps.json
-E:\Project\MateralProject\Authority\Src\Server\Authority\MateralProject.EFHelper\bin\Debug\netcoreapp3.1\MateralProject.EFHelper.dll
-E:\Project\MateralProject\Authority\Src\Server\Authority\MateralProject.EFHelper\obj\Debug\netcoreapp3.1\MateralProject.EFHelper.AssemblyInfoInputs.cache
-E:\Project\MateralProject\Authority\Src\Server\Authority\MateralProject.EFHelper\obj\Debug\netcoreapp3.1\MateralProject.EFHelper.AssemblyInfo.cs
-E:\Project\MateralProject\Authority\Src\Server\Authority\MateralProject.EFHelper\obj\Debug\netcoreapp3.1\MateralProject.EFHelper.csprojAssemblyReference.cache
-E:\Project\MateralProject\Authority\Src\Server\Authority\MateralProject.EFHelper\bin\Debug\netcoreapp3.1\MateralProject.EFHelper.runtimeconfig.json
-E:\Project\MateralProject\Authority\Src\Server\Authority\MateralProject.EFHelper\bin\Debug\netcoreapp3.1\MateralProject.EFHelper.runtimeconfig.dev.json
-E:\Project\MateralProject\Authority\Src\Server\Authority\MateralProject.EFHelper\obj\Debug\netcoreapp3.1\MateralProject.EFHelper.genruntimeconfig.cache

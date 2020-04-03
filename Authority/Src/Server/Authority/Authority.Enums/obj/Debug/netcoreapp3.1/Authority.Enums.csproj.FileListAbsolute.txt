@@ -1,8 +1,0 @@
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Enums\bin\Debug\netcoreapp3.1\Authority.Enums.deps.json
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Enums\bin\Debug\netcoreapp3.1\Authority.Enums.dll
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Enums\bin\Debug\netcoreapp3.1\Authority.Enums.pdb
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Enums\obj\Debug\netcoreapp3.1\Authority.Enums.csproj.CoreCompileInputs.cache
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Enums\obj\Debug\netcoreapp3.1\Authority.Enums.AssemblyInfoInputs.cache
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Enums\obj\Debug\netcoreapp3.1\Authority.Enums.AssemblyInfo.cs
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Enums\obj\Debug\netcoreapp3.1\Authority.Enums.dll
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Enums\obj\Debug\netcoreapp3.1\Authority.Enums.pdb

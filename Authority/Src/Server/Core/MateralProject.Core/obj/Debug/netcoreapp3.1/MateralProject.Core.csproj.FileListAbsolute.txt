@@ -1,9 +1,0 @@
-E:\Project\MateralProject\Authority\Src\Server\Core\MateralProject.Core\bin\Debug\netcoreapp3.1\MateralProject.Core.deps.json
-E:\Project\MateralProject\Authority\Src\Server\Core\MateralProject.Core\bin\Debug\netcoreapp3.1\MateralProject.Core.dll
-E:\Project\MateralProject\Authority\Src\Server\Core\MateralProject.Core\obj\Debug\netcoreapp3.1\MateralProject.Core.csprojAssemblyReference.cache
-E:\Project\MateralProject\Authority\Src\Server\Core\MateralProject.Core\obj\Debug\netcoreapp3.1\MateralProject.Core.AssemblyInfoInputs.cache
-E:\Project\MateralProject\Authority\Src\Server\Core\MateralProject.Core\obj\Debug\netcoreapp3.1\MateralProject.Core.AssemblyInfo.cs
-E:\Project\MateralProject\Authority\Src\Server\Core\MateralProject.Core\bin\Debug\netcoreapp3.1\MateralProject.Core.pdb
-E:\Project\MateralProject\Authority\Src\Server\Core\MateralProject.Core\obj\Debug\netcoreapp3.1\MateralProject.Core.csproj.CoreCompileInputs.cache
-E:\Project\MateralProject\Authority\Src\Server\Core\MateralProject.Core\obj\Debug\netcoreapp3.1\MateralProject.Core.dll
-E:\Project\MateralProject\Authority\Src\Server\Core\MateralProject.Core\obj\Debug\netcoreapp3.1\MateralProject.Core.pdb

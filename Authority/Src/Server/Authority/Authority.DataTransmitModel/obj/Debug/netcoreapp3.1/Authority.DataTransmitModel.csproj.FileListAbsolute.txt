@@ -1,9 +1,0 @@
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DataTransmitModel\bin\Debug\netcoreapp3.1\Authority.DataTransmitModel.deps.json
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DataTransmitModel\bin\Debug\netcoreapp3.1\Authority.DataTransmitModel.dll
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DataTransmitModel\bin\Debug\netcoreapp3.1\Authority.DataTransmitModel.pdb
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DataTransmitModel\obj\Debug\netcoreapp3.1\Authority.DataTransmitModel.csprojAssemblyReference.cache
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DataTransmitModel\obj\Debug\netcoreapp3.1\Authority.DataTransmitModel.csproj.CoreCompileInputs.cache
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DataTransmitModel\obj\Debug\netcoreapp3.1\Authority.DataTransmitModel.AssemblyInfoInputs.cache
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DataTransmitModel\obj\Debug\netcoreapp3.1\Authority.DataTransmitModel.AssemblyInfo.cs
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DataTransmitModel\obj\Debug\netcoreapp3.1\Authority.DataTransmitModel.dll
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.DataTransmitModel\obj\Debug\netcoreapp3.1\Authority.DataTransmitModel.pdb

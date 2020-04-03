@@ -1,8 +1,0 @@
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Service\bin\Debug\netcoreapp3.1\Authority.Service.deps.json
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Service\bin\Debug\netcoreapp3.1\Authority.Service.dll
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Service\bin\Debug\netcoreapp3.1\Authority.Service.pdb
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Service\obj\Debug\netcoreapp3.1\Authority.Service.csproj.CoreCompileInputs.cache
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Service\obj\Debug\netcoreapp3.1\Authority.Service.AssemblyInfoInputs.cache
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Service\obj\Debug\netcoreapp3.1\Authority.Service.AssemblyInfo.cs
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Service\obj\Debug\netcoreapp3.1\Authority.Service.dll
-E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Service\obj\Debug\netcoreapp3.1\Authority.Service.pdb

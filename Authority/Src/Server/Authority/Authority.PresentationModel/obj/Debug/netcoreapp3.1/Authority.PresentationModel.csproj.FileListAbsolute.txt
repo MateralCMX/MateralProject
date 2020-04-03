@@ -1,0 +1,8 @@
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.PresentationModel\bin\Debug\netcoreapp3.1\Authority.PresentationModel.deps.json
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.PresentationModel\bin\Debug\netcoreapp3.1\Authority.PresentationModel.dll
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.PresentationModel\bin\Debug\netcoreapp3.1\Authority.PresentationModel.pdb
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.PresentationModel\obj\Debug\netcoreapp3.1\Authority.PresentationModel.csproj.CoreCompileInputs.cache
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.PresentationModel\obj\Debug\netcoreapp3.1\Authority.PresentationModel.AssemblyInfoInputs.cache
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.PresentationModel\obj\Debug\netcoreapp3.1\Authority.PresentationModel.AssemblyInfo.cs
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.PresentationModel\obj\Debug\netcoreapp3.1\Authority.PresentationModel.dll
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.PresentationModel\obj\Debug\netcoreapp3.1\Authority.PresentationModel.pdb

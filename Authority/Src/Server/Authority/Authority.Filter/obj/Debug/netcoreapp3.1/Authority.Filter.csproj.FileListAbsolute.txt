@@ -1,0 +1,9 @@
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Filter\bin\Debug\netcoreapp3.1\Authority.Filter.deps.json
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Filter\bin\Debug\netcoreapp3.1\Authority.Filter.dll
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Filter\bin\Debug\netcoreapp3.1\Authority.Filter.pdb
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Filter\obj\Debug\netcoreapp3.1\Authority.Filter.csprojAssemblyReference.cache
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Filter\obj\Debug\netcoreapp3.1\Authority.Filter.csproj.CoreCompileInputs.cache
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Filter\obj\Debug\netcoreapp3.1\Authority.Filter.AssemblyInfoInputs.cache
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Filter\obj\Debug\netcoreapp3.1\Authority.Filter.AssemblyInfo.cs
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Filter\obj\Debug\netcoreapp3.1\Authority.Filter.dll
+E:\Project\MateralProject\Authority\Src\Server\Authority\Authority.Filter\obj\Debug\netcoreapp3.1\Authority.Filter.pdb

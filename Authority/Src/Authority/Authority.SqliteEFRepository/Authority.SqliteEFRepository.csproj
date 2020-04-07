@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Authority.Domain\Authority.Domain.csproj" />
-    <ProjectReference Include="..\MateralProject.EFHelper\MateralProject.EFHelper.csproj" />
   </ItemGroup>
 
 </Project>

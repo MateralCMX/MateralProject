@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\MateralProject.Core\MateralProject.Core.csproj" />
+    <ProjectReference Include="..\..\..\..\Core\Src\MateralProject.Core\MateralProject.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

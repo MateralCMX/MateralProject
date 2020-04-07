@@ -3,33 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authority.Server", "Authority.Server\Authority.Server.csproj", "{74F06A9B-949C-482D-B690-80C4FB648B9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authority.Server", "Authority.Server\Authority.Server.csproj", "{74F06A9B-949C-482D-B690-80C4FB648B9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authority.Domain", "Authority.Domain\Authority.Domain.csproj", "{79DE71DC-CBB5-403E-BE38-861AB31C77D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authority.Domain", "Authority.Domain\Authority.Domain.csproj", "{79DE71DC-CBB5-403E-BE38-861AB31C77D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authority.Common", "Authority.Common\Authority.Common.csproj", "{7C942D76-B83D-407C-91D1-5619DF8625E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authority.Common", "Authority.Common\Authority.Common.csproj", "{7C942D76-B83D-407C-91D1-5619DF8625E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authority.DataTransmitModel", "Authority.DataTransmitModel\Authority.DataTransmitModel.csproj", "{4FDE8B50-EE8B-4843-9E74-4ED67B43A943}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authority.DataTransmitModel", "Authority.DataTransmitModel\Authority.DataTransmitModel.csproj", "{4FDE8B50-EE8B-4843-9E74-4ED67B43A943}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authority.DependencyInjection", "Authority.DependencyInjection\Authority.DependencyInjection.csproj", "{6AF5208D-076F-48CB-BD81-64706439D860}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authority.DependencyInjection", "Authority.DependencyInjection\Authority.DependencyInjection.csproj", "{6AF5208D-076F-48CB-BD81-64706439D860}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authority.Enums", "Authority.Enums\Authority.Enums.csproj", "{A176AA88-350E-489D-8CCE-7B346B8EBC86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authority.Enums", "Authority.Enums\Authority.Enums.csproj", "{A176AA88-350E-489D-8CCE-7B346B8EBC86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authority.Filter", "Authority.Filter\Authority.Filter.csproj", "{9E17A548-4A57-479E-998F-752BC6F34CE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authority.Filter", "Authority.Filter\Authority.Filter.csproj", "{9E17A548-4A57-479E-998F-752BC6F34CE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authority.PresentationModel", "Authority.PresentationModel\Authority.PresentationModel.csproj", "{BB25391D-28E6-4307-AF6B-DCACEE543A75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authority.PresentationModel", "Authority.PresentationModel\Authority.PresentationModel.csproj", "{BB25391D-28E6-4307-AF6B-DCACEE543A75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authority.Service", "Authority.Service\Authority.Service.csproj", "{5C13CF63-D569-4DD1-B63F-A4F429672AD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authority.Service", "Authority.Service\Authority.Service.csproj", "{5C13CF63-D569-4DD1-B63F-A4F429672AD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authority.ServiceImpl", "Authority.ServiceImpl\Authority.ServiceImpl.csproj", "{95DEEB38-FA00-4FF1-8E7A-CB134321EAE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authority.ServiceImpl", "Authority.ServiceImpl\Authority.ServiceImpl.csproj", "{95DEEB38-FA00-4FF1-8E7A-CB134321EAE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MateralProject.Core", "..\Core\MateralProject.Core\MateralProject.Core.csproj", "{718057DB-4BDC-403E-A512-C3A53BFA21D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authority.SqliteEFRepository", "Authority.SqliteEFRepository\Authority.SqliteEFRepository.csproj", "{92FA8E7D-CA67-440F-BCA1-3DED550F0803}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MateralProject.Domain", "..\Core\MateralProject.Domain\MateralProject.Domain.csproj", "{60729889-D2D0-430E-94FB-1087E4C5BC70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MateralProject.Core", "..\..\..\Core\Src\MateralProject.Core\MateralProject.Core.csproj", "{40FB5CD1-E468-44D7-920C-0F6B2906057D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authority.SqliteEFRepository", "Authority.SqliteEFRepository\Authority.SqliteEFRepository.csproj", "{92FA8E7D-CA67-440F-BCA1-3DED550F0803}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MateralProject.Domain", "..\..\..\Core\Src\MateralProject.Domain\MateralProject.Domain.csproj", "{B4D9B723-42A3-4835-9671-EE04E35C401C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MateralProject.EFHelper", "MateralProject.EFHelper\MateralProject.EFHelper.csproj", "{5C505A91-E359-486F-BDC8-49EE18801C31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MateralProject.EFHelper", "..\..\..\Core\Src\MateralProject.EFHelper\MateralProject.EFHelper.csproj", "{152047D2-5BF8-4D41-A7CB-95ACC57F473D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,22 +77,22 @@ Global
 		{95DEEB38-FA00-4FF1-8E7A-CB134321EAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95DEEB38-FA00-4FF1-8E7A-CB134321EAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95DEEB38-FA00-4FF1-8E7A-CB134321EAE1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{718057DB-4BDC-403E-A512-C3A53BFA21D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{718057DB-4BDC-403E-A512-C3A53BFA21D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{718057DB-4BDC-403E-A512-C3A53BFA21D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{718057DB-4BDC-403E-A512-C3A53BFA21D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{60729889-D2D0-430E-94FB-1087E4C5BC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60729889-D2D0-430E-94FB-1087E4C5BC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60729889-D2D0-430E-94FB-1087E4C5BC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60729889-D2D0-430E-94FB-1087E4C5BC70}.Release|Any CPU.Build.0 = Release|Any CPU
 		{92FA8E7D-CA67-440F-BCA1-3DED550F0803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{92FA8E7D-CA67-440F-BCA1-3DED550F0803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92FA8E7D-CA67-440F-BCA1-3DED550F0803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92FA8E7D-CA67-440F-BCA1-3DED550F0803}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5C505A91-E359-486F-BDC8-49EE18801C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C505A91-E359-486F-BDC8-49EE18801C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C505A91-E359-486F-BDC8-49EE18801C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C505A91-E359-486F-BDC8-49EE18801C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FB5CD1-E468-44D7-920C-0F6B2906057D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FB5CD1-E468-44D7-920C-0F6B2906057D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FB5CD1-E468-44D7-920C-0F6B2906057D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FB5CD1-E468-44D7-920C-0F6B2906057D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D9B723-42A3-4835-9671-EE04E35C401C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D9B723-42A3-4835-9671-EE04E35C401C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D9B723-42A3-4835-9671-EE04E35C401C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D9B723-42A3-4835-9671-EE04E35C401C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152047D2-5BF8-4D41-A7CB-95ACC57F473D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152047D2-5BF8-4D41-A7CB-95ACC57F473D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152047D2-5BF8-4D41-A7CB-95ACC57F473D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152047D2-5BF8-4D41-A7CB-95ACC57F473D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

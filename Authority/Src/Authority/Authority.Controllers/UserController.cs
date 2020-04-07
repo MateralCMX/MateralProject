@@ -182,7 +182,7 @@ namespace Authority.Controllers
                     ExpiresSecond = _applicationConfig.JWTConfig.ExpiredTime,
                     AccessToken = token
                 };
-                return ResultModel<TokenResultModel>.Success(result, "查询成功");
+                return ResultModel<TokenResultModel>.Success(result, "登录成功");
             }
             catch (AspectInvocationException ex)
             {

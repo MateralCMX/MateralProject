@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Core\Src\MateralProject.Controllers\MateralProject.Controllers.csproj" />
+    <ProjectReference Include="..\Authority.PresentationModel\Authority.PresentationModel.csproj" />
     <ProjectReference Include="..\Authority.Service\Authority.Service.csproj" />
-    <ProjectReference Include="..\Authority.SqliteEFRepository\Authority.SqliteEFRepository.csproj" />
   </ItemGroup>
 
 </Project>

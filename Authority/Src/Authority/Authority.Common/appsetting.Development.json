@@ -1,10 +1,24 @@
 {
   "ServerConfig": {
     "Host": "192.168.0.101",
-    "Port": 8201
+    "Port": 18101
   },
   "SqliteConfig": {
-    "FilePath": "AuthorityDB.db",
-    "Password": "MateralProject"
+    "FilePath": "AuthorityDB.db"
+  },
+  "JWT": {
+    "Key": "MateralCMXConfig",
+    "Issuer": "MateralProject",
+    "Audience": "WebAPI",
+    "ExpiredTime": "18000"
+  },
+  "Consul": {
+    "Enable": true,
+    "ConsulUrl": "http://127.0.0.1",
+    "ConsulPort": 8500
+  },
+  "ServiceConfig": {
+    "ServiceName": "AuthorityAPI",
+    "ServiceHealth": "api/Health/Inspect"
   }
 }

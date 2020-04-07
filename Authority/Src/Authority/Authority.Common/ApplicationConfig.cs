@@ -1,39 +1,24 @@
-﻿using System;
-using Materal.ConfigCenter.Client;
+﻿using Materal.ConfigCenter.Client;
 using Materal.DotNetty.Server.Core;
 using Materal.TTA.SqliteRepository.Model;
 using MateralProject.Core;
-using Microsoft.Extensions.Configuration;
+using System;
 
 namespace Authority.Common
 {
-    public static class ApplicationConfig
+    public class ApplicationConfig : ApplicationBaseConfig
     {
-        #region 配置对象
-        private static IConfiguration _configurationFile;
-        private static IConfiguration _configurationCenter;
-        /// <summary>
-        /// 配置生成
-        /// </summary>
-        public static void ConfigurationBuilder()
-        {
-            _configurationFile = ApplicationBaseConfig.GetConfigurationByConfigurationFile();
-            _configurationCenter = ApplicationBaseConfig.GetConfigurationByConfigCenter();
-        }
-        #endregion
         #region 配置
-        private static ServerConfig _serverConfig;
-
+        private ServerConfig _serverConfig;
         /// <summary>
         /// 服务配置
         /// </summary>
-        public static ServerConfig ServerConfig
+        public ServerConfig ServerConfig
         {
             get
             {
                 if (_serverConfig != null) return _serverConfig;
-                const string serverConfigName = "ServerConfig";
-                _serverConfig = _configurationCenter?.GetValueObject<ServerConfig>(serverConfigName) ??
+                _serverConfig = _configurationCenter?.GetValueObject<ServerConfig>("ServerConfig") ??
                                 new ServerConfig
                                 {
                                     Host = _configurationFile["ServerConfig:Host"],
@@ -42,23 +27,41 @@ namespace Authority.Common
                 return _serverConfig;
             }
         }
-        private static SqliteConfigModel _sqliteConfig;
+        private SqliteConfigModel _sqliteConfig;
         /// <summary>
         /// Sqlite数据库配置
         /// </summary>
-        public static SqliteConfigModel SqliteConfig
+        public SqliteConfigModel SqliteConfig
         {
             get
             {
                 if (_sqliteConfig != null) return _sqliteConfig;
-                const string serverConfigName = "SqliteConfig";
-                _sqliteConfig = _configurationCenter?.GetValueObject<SqliteConfigModel>(serverConfigName) ??
+                _sqliteConfig = _configurationCenter?.GetValueObject<SqliteConfigModel>("SqliteConfig") ??
                                 new SqliteConfigModel
                                 {
                                     FilePath = _configurationFile["SqliteConfig:FilePath"],
                                     Password = _configurationFile["SqliteConfig:Password"]
                                 };
                 return _sqliteConfig;
+            }
+        }
+        private ServiceConfigModel _serviceConfig;
+        /// <summary>
+        /// 服务配置
+        /// </summary>
+        public ServiceConfigModel ServiceConfig
+        {
+            get
+            {
+                if (_serviceConfig != null) return _serviceConfig;
+                _serviceConfig = _configurationCenter?.GetValueObject<ServiceConfigModel>("ServiceConfig") ??
+                                 new ServiceConfigModel
+                                 {
+                                     ServiceName = _configurationFile["ServiceConfig:ServiceName"],
+                                     ServiceHealth = _configurationFile["ServiceConfig:ServiceHealth"]
+                                 };
+                _serviceConfig.ChangeService($"http://{ServerConfig.Host}:{ServerConfig.Port}");
+                return _serviceConfig;
             }
         }
         #endregion

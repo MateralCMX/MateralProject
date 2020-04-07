@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Core\Src\MateralProject.EFHelper\MateralProject.EFHelper.csproj" />
     <ProjectReference Include="..\Authority.SqliteEFRepository\Authority.SqliteEFRepository.csproj" />
   </ItemGroup>
 

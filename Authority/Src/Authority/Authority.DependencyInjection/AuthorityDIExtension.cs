@@ -1,5 +1,5 @@
-﻿using Authority.Common;
-using Authority.SqliteEFRepository;
+﻿using Authority.SqliteEFRepository;
+using MateralProject.EFHelper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using NetCore.AutoRegisterDi;
@@ -16,13 +16,13 @@ namespace Authority.DependencyInjection
         /// 添加权限服务
         /// </summary>
         /// <param name="services"></param>
-        public static void AddAuthorityServices(this IServiceCollection services)
+        /// <param name="connectionString"></param>
+        public static void AddAuthorityServices(this IServiceCollection services, string connectionString)
         {
-            services.AddDbContext<AuthorityDBContext>(options => options.UseSqlite(
-                ApplicationConfig.SqliteConfig.ConnectionString,
-                o => { }));
+            services.AddDbContext<AuthorityDBContext>(options => options.UseSqlite(connectionString));
+            services.AddTransient<DBContextHelper<AuthorityDBContext>>();
             services.AddTransient(typeof(IAuthorityUnitOfWork), typeof(AuthorityUnitOfWorkImpl));
-            services.RegisterAssemblyPublicNonGenericClasses(Assembly.Load("Authority.EFRepository"))
+            services.RegisterAssemblyPublicNonGenericClasses(Assembly.Load("Authority.SqliteEFRepository"))
                 .Where(c => c.Name.EndsWith("RepositoryImpl"))
                 .AsPublicImplementedInterfaces();
             services.RegisterAssemblyPublicNonGenericClasses(Assembly.Load("Authority.ServiceImpl"))

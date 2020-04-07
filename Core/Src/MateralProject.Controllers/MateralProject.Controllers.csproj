@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Materal.DotNetty.ControllerBus" Version="0.1.5" />
+    <PackageReference Include="Materal.Model" Version="1.0.9" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MateralProject.Core\MateralProject.Core.csproj" />
+  </ItemGroup>
+
+</Project>

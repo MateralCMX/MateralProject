@@ -3,7 +3,7 @@ using Authority.Domain.Repositories;
 
 namespace Authority.SqliteEFRepository.RepositoryImpl
 {
-    public class UserRepositoryImpl : AuthoritySqliteEFRepositoryImpl<User>, IUserRepository
+    public class UserRepositoryImpl : AuthorityDBSqliteEFRepositoryImpl<User>, IUserRepository
     {
         public UserRepositoryImpl(AuthorityDBContext dbContext) : base(dbContext)
         {

@@ -10,7 +10,14 @@ namespace MateralProject.Controllers
 {
     public abstract class MateralProjectBaseController : BaseController
     {
+        private readonly ApplicationBaseConfig _baseConfig;
         private Guid? loginUserID;
+
+        protected MateralProjectBaseController(ApplicationBaseConfig baseConfig)
+        {
+            _baseConfig = baseConfig;
+        }
+
         /// <summary>
         /// 获得Token
         /// </summary>
@@ -39,8 +46,8 @@ namespace MateralProject.Controllers
         {
             string token = GetToken();
             var jwtSecurityToken = new JwtSecurityToken(token);
-            if (!jwtSecurityToken.Audiences.Contains("WebAPI")) throw new MateralProjectException("未识别Token");
-            if (!jwtSecurityToken.Issuer.Equals("Materal.ConfigCenter")) throw new MateralProjectException("未识别Token");
+            if (!jwtSecurityToken.Audiences.Contains(_baseConfig.JWTConfig.Audience)) throw new MateralProjectException("未识别Token");
+            if (!jwtSecurityToken.Issuer.Equals(_baseConfig.JWTConfig.Issuer)) throw new MateralProjectException("未识别Token");
             if (jwtSecurityToken.ValidTo < DateTime.UtcNow) throw new MateralProjectException("未识别Token");
             return jwtSecurityToken;
         }

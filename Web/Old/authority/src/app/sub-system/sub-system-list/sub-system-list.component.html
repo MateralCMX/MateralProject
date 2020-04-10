@@ -1,0 +1,69 @@
+<nz-page-header nzGhost="false">
+    <nz-page-header-title>子系统管理</nz-page-header-title>
+    <nz-page-header-subtitle>Materal-ConfigCenter</nz-page-header-subtitle>
+    <nz-page-header-extra>
+        <nz-button-group>
+            <button nz-button [disabled]="dataLoading" (click)="openDrawer(null)" title="添加子系统"><i nz-icon nzType="plus"></i></button>
+        </nz-button-group>
+    </nz-page-header-extra>
+    <nz-page-header-content>
+        <form nz-form [formGroup]="searchModel" autocomplete="off">
+            <div nz-row nzGutter="24">
+                <nz-form-item nz-col nzSpan="6">
+                    <nz-form-control>
+                        <input type="search" nz-input placeholder="名称" formControlName="name" />
+                    </nz-form-control>
+                </nz-form-item>
+                <nz-form-item nz-col nzSpan="6">
+                    <nz-form-control>
+                        <input type="search" nz-input placeholder="代码" formControlName="code" />
+                    </nz-form-control>
+                </nz-form-item>
+                <nz-form-item nz-col nzSpan="6">
+                    <nz-form-control>
+                    <nz-select formControlName="display" nzAllowClear nzPlaceHolder="全部" [getPopupContainer]="
+                    triggerNode => {
+                      return triggerNode.parentNode || document.body;
+                    }
+                  ">
+                        <nz-option [nzValue]="true" nzLabel="显示"></nz-option>
+                        <nz-option [nzValue]="false" nzLabel="不显示"></nz-option>
+                      </nz-select>
+                    </nz-form-control>
+                </nz-form-item>
+                <nz-form-item nz-col nzSpan="2">
+                    <nz-form-control>
+                        <button nz-button nzType="primary" (click)="search(1)" title="查询"><i nz-icon nzType="search"></i></button>
+                    </nz-form-control>
+                </nz-form-item>
+            </div>
+        </form>
+    </nz-page-header-content>
+</nz-page-header>
+<nz-table #filterTable nzFrontPagination="false" [nzData]="tableData" [nzLoading]="dataLoading" [nzTotal]="pageModel.DataCount" [nzPageIndex]="pageModel.PageIndex" [nzPageSize]="pageModel.PageSize" (nzPageIndexChange)="onPageChange($event)">
+    <thead>
+        <tr>
+            <th>名称</th>
+            <th>代码</th>
+            <th>是否显示</th>
+            <th nzWidth="100px">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of tableData">
+            <td>{{ data.Name }}</td>
+            <td>{{ data.Code }}</td>
+            <td>{{ data.Display }}</td>
+            <td>
+                <nz-button-group>
+                    <button nz-button (click)="openDrawer(data.ID)" title="编辑"><i nz-icon nzType="edit"></i></button>
+                    <button nz-button nzType="danger" title="删除" (click)="openDeleteModal(data.ID)"><i nz-icon nzType="delete"></i></button>
+                </nz-button-group>
+            </td>
+        </tr>
+    </tbody>
+</nz-table>
+<app-delete-modal #deleteModalComponent (deleteHandler)="deleteSubSystem($event)"></app-delete-modal>
+<nz-drawer [nzVisible]="drawerVisible" [nzTitle]="isAdd?'添加子系统':'修改子系统'" (nzOnClose)="closeDrawer()">
+    <app-sub-system-edit #subSystemEditComponent (saveEnd)="saveEnd($event)"></app-sub-system-edit>
+</nz-drawer>

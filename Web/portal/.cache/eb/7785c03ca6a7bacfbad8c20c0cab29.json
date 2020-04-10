@@ -1,0 +1,1 @@
+{"id":"PortalApp/VueTemplate.html","dependencies":[],"generated":{"html":"<div id=\"subapp-container\">\r\n    <h4 v-if=\"loading\" class=\"subapp-loading\">Loading...</h4>\r\n    <div v-html=\"appContent\"></div>\r\n</div>"},"sourceMaps":null,"error":null,"hash":"36dcc7a6ec4f933d2bcae8f0230ca9d8","cacheData":{}}

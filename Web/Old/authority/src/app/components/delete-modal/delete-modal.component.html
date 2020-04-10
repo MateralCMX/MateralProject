@@ -1,0 +1,3 @@
+<nz-modal [(nzVisible)]="isVisible" [nzWidth]="350" nzTitle="提示" nzOkText="删除" nzOkType="danger" [nzCancelLoading]="isLoading" [nzOkLoading]="isLoading" [nzClosable]="false" [nzKeyboard]="false" [nzMaskClosable]="false" (nzOnOk)="handleOK()" (nzOnCancel)="close()">
+    <p>确定要删除该项吗?</p>
+</nz-modal>

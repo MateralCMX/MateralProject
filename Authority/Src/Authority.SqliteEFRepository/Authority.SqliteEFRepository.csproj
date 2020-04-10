@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200409021007_AddWebMenu.cs" />
+    <Compile Remove="Migrations\20200409021007_AddWebMenu.Designer.cs" />
+    <Compile Remove="Migrations\20200409031145_AddWebMenu.cs" />
+    <Compile Remove="Migrations\20200409031145_AddWebMenu.Designer.cs" />
+    <Compile Remove="Migrations\20200409032336_AddWebMenu.cs" />
+    <Compile Remove="Migrations\20200409032336_AddWebMenu.Designer.cs" />
+    <Compile Remove="Migrations\20200409034742_AddWebMenu.cs" />
+    <Compile Remove="Migrations\20200409034742_AddWebMenu.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Authority.Domain\Authority.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

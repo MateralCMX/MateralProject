@@ -1,7 +1,8 @@
-﻿using Microsoft.Extensions.Configuration;
-using System;
-using Materal.ConfigCenter.Client;
+﻿using Materal.ConfigCenter.Client;
 using Materal.ConvertHelper;
+using MateralProject.Core.Models;
+using Microsoft.Extensions.Configuration;
+using System;
 
 namespace MateralProject.Core
 {

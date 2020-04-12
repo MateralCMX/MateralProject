@@ -1,32 +1,27 @@
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
 import Index from '../views/Index.vue';
-import Home from '../views/Home.vue';
-import About from '../views/About.vue';
+import userRoutes from './userRouter';
 
 Vue.use(VueRouter);
 
 const routes: RouteConfig[] = [
   {
     path: '/authority',
-    name: 'Index',
+    name: 'Authority',
     component: Index,
     children: [
-      {
-        path: '/',
-        name: 'Home',
-        component: Home,
-      },
-      {
-        path: '/about',
-        name: 'About',
-        component: About,
-      },
+      userRoutes,
     ],
   },
 ];
 const router = new VueRouter({
   routes,
 });
-
+(window as any).$router = router;
+(window as any).navigate = (data: any) => {
+  if (data && data.name) {
+    router.push({ name: data.name });
+  }
+};
 export default router;

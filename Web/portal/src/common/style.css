@@ -112,12 +112,17 @@ body {
     border-color: #66b1ff;
 }
 
+.m-btn-error {
+    color: #fff;
+    background-color: #f56c6c;
+    border-color: #f56c6c;
+}
+
 .m-messagebox-group {
     position: fixed;
-    left: 0;
-    right: 0;
+    left: 50%;
     top: 0;
-    z-index: -9999;
+    transform: translate(-50%, 0);
 }
 .m-messagebox {
     display: flex;

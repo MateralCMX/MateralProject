@@ -38,6 +38,7 @@ export class MessageBox {
                 this.messageBoxElement.classList.add('m-messagebox-error');
                 break;
             default:
+                this.messageBoxElement.classList.add('m-messagebox-info');
                 break;
         }
         const messageDiv = document.createElement('div');

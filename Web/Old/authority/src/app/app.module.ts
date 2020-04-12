@@ -18,7 +18,6 @@ import { ComponentsModule } from './components/components.module';
 import { NzIconModule, NZ_ICONS } from 'ng-zorro-antd/icon';
 import { IconDefinition } from '@ant-design/icons-angular';
 import * as AllIcons from '@ant-design/icons-angular/icons';
-import { SubSystemModule } from './sub-system/sub-system.module';
 const antDesignIcons = AllIcons as {
   [key: string]: IconDefinition;
 };
@@ -41,8 +40,7 @@ registerLocaleData(zh);
     AppRoutingModule,
     NzIconModule,
     ComponentsModule,
-    UserModule,
-    SubSystemModule
+    UserModule
   ],
   providers: [
     { provide: NZ_I18N, useValue: zh_CN },

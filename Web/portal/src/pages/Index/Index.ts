@@ -1,4 +1,5 @@
 import './Index.css';
+import 'zone.js';
 import { SubAppList } from '../../PortalApp/SubAppList'
 import { PortalApp } from '../../PortalApp/PortalApp'
 import { BasiceViewModel } from '../../common/BasiceViewModel';
@@ -8,15 +9,19 @@ class IndexViewModel extends BasiceViewModel {
     private menuData = [
         {
             Name: '用户管理',
-            Data: '{"url":"authority","data":"about"}'
+            Data: '{"url":"authority","data":{"name":"UserList"}}'
+        },
+        {
+            Name: '子系统管理',
+            Data: '{"url":"authority","data":{"name":"SubSystemList"}}'
         },
         {
             Name: '角色管理',
-            Data: '{"url":"authority2","data":"about2"}'
+            Data: '{"url":"authority","data":{"name":"RoleList"}}'
         },
         {
             Name: '菜单管理',
-            Data: '{"url":"authority3","data":"about3"}'
+            Data: '{"url":"authority","data":{"name":"WebMenuList"}}'
         }
     ]
     public constructor() {

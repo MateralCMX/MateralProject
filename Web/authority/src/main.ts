@@ -17,11 +17,16 @@ if (!(window as any).__POWERED_BY_QIANKUN__) {
 } else {
   __webpack_public_path__ = (window as any).__INJECTED_PUBLIC_PATH_BY_QIANKUN__;
 }
+
 // tslint:disable-next-line: no-empty
 export async function bootstrap() { }
 
 export async function mount(props: any) {
   render();
+  const data: any = (window as any).historyData;
+  if (data && data.name) {
+    (window as any).$router.push({ name: data.name });
+  }
 }
 
 export async function unmount() {

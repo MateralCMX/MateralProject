@@ -10,6 +10,9 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    "allowJs": true,                       /* Allow javascript files to be compiled. */
+    "noImplicitAny": false,                 /* Raise error on expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": false,              /* Enable strict null checks. */
     "baseUrl": ".",
     "types": [
       "webpack-env"
